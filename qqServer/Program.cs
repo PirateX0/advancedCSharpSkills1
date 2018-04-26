@@ -13,6 +13,7 @@ namespace qqServer
         {
             Console.WriteLine(infoHelper.ShowAuthor());
             Console.WriteLine("change");
+            Console.WriteLine("GO");
             Console.ReadKey();
         }
     }

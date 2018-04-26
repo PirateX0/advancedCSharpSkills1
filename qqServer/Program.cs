@@ -16,6 +16,7 @@ namespace qqServer
             Console.WriteLine("GO");
             Console.WriteLine("test");
             Console.WriteLine("666");
+            Console.WriteLine("tfs");
             Console.ReadKey();
         }
     }

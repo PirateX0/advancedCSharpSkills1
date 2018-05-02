@@ -11,14 +11,22 @@ namespace qqServer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(infoHelper.ShowAuthor());
-            Console.WriteLine("change");
-            Console.WriteLine("GO");
-            Console.WriteLine("test");
-            Console.WriteLine("666");
-            Console.WriteLine("tfs");
-            Console.WriteLine("cmd");
+            //Console.WriteLine(infoHelper.ShowAuthor());
+            //Console.WriteLine("change");
+            //Console.WriteLine("GO");
+            //Console.WriteLine("test");
+            //Console.WriteLine("666");
+            //Console.WriteLine("tfs");
+            //Console.WriteLine("cmd");
+            //Console.WriteLine(infoHelper.GetConStr());
+
+            
+
             Console.ReadKey();
         }
+
+
     }
+
+    
 }

@@ -123,28 +123,30 @@ namespace allKindsOfCSharpKnowledge
             //Console.WriteLine(Object.ReferenceEquals(s4, s5)); 
             #endregion
 
-            int i = 5;
-            int j = 6;
-            Console.WriteLine("before swap: i=" + i + ",j=" + j);
-            Swap(i,j);
-            Console.WriteLine("after swap: i=" + i + ",j=" + j);
-            Swap(ref i,ref j);
-            Console.WriteLine("after ref swap: i="+i+",j="+j);
+            #region ref和out
+            //int i = 5;
+            //int j = 6;
+            //Console.WriteLine("before swap: i=" + i + ",j=" + j);
+            //Swap(i,j);
+            //Console.WriteLine("after swap: i=" + i + ",j=" + j);
+            //Swap(ref i,ref j);
+            //Console.WriteLine("after ref swap: i="+i+",j="+j);
 
 
-            string str = "666";
-            if (int.TryParse(str,out i))
-            {
-                Console.WriteLine(i);
-            }
-            else
-            {
-                Console.WriteLine("illegal");
-            }
+            //string str = "666";
+            //if (int.TryParse(str,out i))
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("illegal");
+            //}
 
-            int i1, i2, i3;
-            Multi_Config(out i1,out i2,out i3);
-            Console.WriteLine("i1="+i1+",i2="+i2+",i3="+i3);
+            //int i1, i2, i3;
+            //Multi_Config(out i1,out i2,out i3);
+            //Console.WriteLine("i1="+i1+",i2="+i2+",i3="+i3); 
+            #endregion
 
 
             Console.ReadKey();

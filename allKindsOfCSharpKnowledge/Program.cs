@@ -169,12 +169,12 @@ namespace allKindsOfCSharpKnowledge
             j = temp;
         }
 
-        static void Swap(out int i,out int j)
-        {
-            int temp = i;
-            i = j;
-            j = temp;
-        }
+        //static void Swap(out int i,out int j)
+        //{
+        //    int temp = i;
+        //    i = j;
+        //    j = temp;
+        //}
 
         static void Multi_Config(out int i, out int j, out int k)
         {

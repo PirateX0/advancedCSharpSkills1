@@ -14,5 +14,18 @@ namespace longLibrary
 
             return (s.Trim().Length == 0);
         }
+
+        public static IEnumerable<T> LongWhere<T>(this IEnumerable<T> collection, Func<T, bool> filter)
+        {
+            List<T> list = new List<T>();
+            foreach (var item in collection)
+            {
+                if (filter(item))
+                {
+                    list.Add(item);
+                }
+            }
+            return list;
+        }
     }
 }

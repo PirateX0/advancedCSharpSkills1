@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "allKindsOfCSharpKnowledge",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateLambdaEvent", "DelegateLambdaEvent\DelegateLambdaEvent.csproj", "{BF68F236-D81F-4F88-AF10-2DA5F906CE31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reflectAndAttribute", "reflectAndAttribute\reflectAndAttribute.csproj", "{13786DE9-0987-4D46-B941-9CBE74FACAFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longORM", "longORM\longORM.csproj", "{4C9AB06C-6B7A-441A-8E45-7F94B432D1C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{BF68F236-D81F-4F88-AF10-2DA5F906CE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF68F236-D81F-4F88-AF10-2DA5F906CE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF68F236-D81F-4F88-AF10-2DA5F906CE31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13786DE9-0987-4D46-B941-9CBE74FACAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13786DE9-0987-4D46-B941-9CBE74FACAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13786DE9-0987-4D46-B941-9CBE74FACAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13786DE9-0987-4D46-B941-9CBE74FACAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9AB06C-6B7A-441A-8E45-7F94B432D1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9AB06C-6B7A-441A-8E45-7F94B432D1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9AB06C-6B7A-441A-8E45-7F94B432D1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9AB06C-6B7A-441A-8E45-7F94B432D1C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

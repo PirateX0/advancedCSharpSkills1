@@ -153,12 +153,34 @@ namespace DelegateLambdaEvent
             //Console.WriteLine(persons.Sum(p=>p.Age));
             //Console.WriteLine(persons.OrderByDescending(p=>p.Age).First().Name); 
 
-            bool[] bools = { };
-            Console.WriteLine(bools.SingleOrDefault());
+            //bool[] bools = { };
+            //Console.WriteLine(bools.SingleOrDefault());
 
-            Console.WriteLine(Convert.ToBoolean(0));
+            //Console.WriteLine(Convert.ToBoolean(0));
 
             #endregion
+
+            #region 委托组合
+            //Action a = new Action(() => { Console.WriteLine("1;"); }) + new Action(() => { Console.WriteLine("2"); });
+            //a();
+            //a = () => { Console.WriteLine("3"); };
+            //a();
+            //a += () => { Console.WriteLine("4"); };
+            //a(); 
+            #endregion
+
+            #region 事件
+            //Person p = new Person();
+            //p.OnBenMingNian += () => { Console.WriteLine("ben ming nian, good luck!"); };
+            ////p.OnBenMingNian();
+            ////p.OnBenMingNian = null;
+            //p.Age = 5;
+            //Console.WriteLine(p.Age);
+            //p.Age = 12;
+            //Console.WriteLine(p.Age); 
+            #endregion
+
+         
 
             Console.ReadKey();
 
@@ -274,8 +296,27 @@ namespace DelegateLambdaEvent
 
     class Person
     {
+        private int age;
         public string Name { get; set; }
-        public int Age { get; set; }
+        public int Age 
+        {
+            get {
+                return this.age;
+            }
+            set {
+                this.age = value;
+                if (value%12==0)
+                {
+                    if (OnBenMingNian!= null)
+                    {
+                        OnBenMingNian();
+                    }
+                }
+            }
+        }
+
+        public event Action OnBenMingNian;
+        //public Action OnBenMingNian;
     }
 
     delegate void Say();

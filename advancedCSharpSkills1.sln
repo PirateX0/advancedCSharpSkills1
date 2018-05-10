@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qqClient", "qqClient\qqClient.csproj", "{EB3C2CEB-DEB6-4948-9A41-AD32985BA978}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reflectAndAttribute", "reflectAndAttribute\reflectAndAttribute.csproj", "{13786DE9-0987-4D46-B941-9CBE74FACAFF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longORM", "longORM\longORM.csproj", "{4C9AB06C-6B7A-441A-8E45-7F94B432D1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "regexSerializeXML", "regexSerializeXML\regexSerializeXML.csproj", "{0BE534B3-410F-4F71-B92D-0F035FAC7328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,8 +53,15 @@ Global
 		{4C9AB06C-6B7A-441A-8E45-7F94B432D1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C9AB06C-6B7A-441A-8E45-7F94B432D1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C9AB06C-6B7A-441A-8E45-7F94B432D1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE534B3-410F-4F71-B92D-0F035FAC7328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE534B3-410F-4F71-B92D-0F035FAC7328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE534B3-410F-4F71-B92D-0F035FAC7328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE534B3-410F-4F71-B92D-0F035FAC7328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {826A8483-9373-4DF7-AFD9-D3CBB99B31AE}
 	EndGlobalSection
 EndGlobal

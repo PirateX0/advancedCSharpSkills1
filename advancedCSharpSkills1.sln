@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longORM", "longORM\longORM.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "regexSerializeXML", "regexSerializeXML\regexSerializeXML.csproj", "{0BE534B3-410F-4F71-B92D-0F035FAC7328}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IO", "IO\IO.csproj", "{0D748636-C001-418A-B6CE-B088A4E90A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longXML", "longXML\longXML.csproj", "{EF9723CE-B32A-4168-9A64-BEC651C5AC41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{0BE534B3-410F-4F71-B92D-0F035FAC7328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BE534B3-410F-4F71-B92D-0F035FAC7328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BE534B3-410F-4F71-B92D-0F035FAC7328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D748636-C001-418A-B6CE-B088A4E90A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D748636-C001-418A-B6CE-B088A4E90A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D748636-C001-418A-B6CE-B088A4E90A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D748636-C001-418A-B6CE-B088A4E90A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9723CE-B32A-4168-9A64-BEC651C5AC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9723CE-B32A-4168-9A64-BEC651C5AC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9723CE-B32A-4168-9A64-BEC651C5AC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9723CE-B32A-4168-9A64-BEC651C5AC41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

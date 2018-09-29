@@ -147,7 +147,23 @@ namespace regexSerializeXML
 
 
             //保存
-            doc.Save(@"C:\Users\banana\Desktop\CNET2SuperlabConfigurationMM_CDVR_5_For3.0.xml");
+            //doc.Save(@"C:\Users\banana\Desktop\CNET2SuperlabConfigurationMM_CDVR_5_For3.0.xml");
+
+            //修改config
+            XmlDocument doc = new XmlDocument();
+            doc.Load(@"C:\Users\banana\Desktop\TemplateConfigS3_0_SCCM.xml");
+            XmlNodeList adds = doc.GetElementsByTagName("add");
+            foreach (XmlNode add in adds)
+            {
+                XmlElement addElement = (XmlElement)add;
+                string keyName = addElement.GetAttribute("key");
+                //Console.WriteLine(keyName);
+                if (keyName== "Lab")
+                {
+                    addElement.SetAttribute("value", "BJGP0021");
+                }
+            }
+            doc.Save(@"C:\Users\banana\Desktop\TemplateConfigS3_0_SCCM_new.xml");
 
             Console.WriteLine("done");
             Console.ReadKey();
